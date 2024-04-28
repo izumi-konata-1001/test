@@ -17,7 +17,7 @@ export default function RecipeDetails() {
     const [isFavorited, setIsFavorited] = useState(false);
 
     useEffect(() => {
-        const url = `${API_BASE_URL}/api/recipe/${id}`;
+        const url = "https://kale-me-maybe-26924ff0e44c.herokuapp.com/api/recipe/${id}";
 
         fetch(url, {
             headers: {
