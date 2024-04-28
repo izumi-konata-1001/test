@@ -1,7 +1,7 @@
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "";
 
 const RecipeImageWithBorder = ({ recipe }) => {
-  const imagePath = `${API_BASE_URL}${recipe.image_path}`;
+  const imagePath = `https://kale-me-maybe-26924ff0e44c.herokuapp.com${recipe.image_path}`;
 
   return (
     <div
