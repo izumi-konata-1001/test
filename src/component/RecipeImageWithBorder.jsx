@@ -1,7 +1,7 @@
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "";
 
 const RecipeImageWithBorder = ({ recipe }) => {
-  const imagePath = `VITE_API_BASE_URL=http://localhost:3000/${recipe.image_path}`;
+  const imagePath = `${VITE_API_BASE_URL}`/${recipe.image_path}`;
 
   return (
     <div
